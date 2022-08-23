@@ -1,6 +1,6 @@
 # Module 07 
 *Erica Peterson, 08/23/2022*
-##Introduction
+## Introduction
 In this paper I will go over pickling and error handling, using the try-except function. Pickling is used to store data in a binary format, and this can be useful for making files smaller or sending files from one program to another. After discussing pickling and error-handling I will go over a program that uses both to do simple calculations and then save them to a binary file. 
-##Pickling
+## Pickling
 Data can be saved in a binary format, rather than plain text as we have seen in the previous assignments. In python, this is called pickling. Pickling is also used to serialize and deserialize a python object. Pickling is a way to convert python objects, such as lists or dictionaries, into a character stream. This character stream contains all the necessary information to reconstruct the object in another python script. Pickling is similar to files where you use the “w”, “a” and “r” modes but instead of just “w”, you would use “wb”, “ab”, or “rb” because everything is stored in bytes. “pickle.dump()” is used to pickle a file whereas “pickle.load()” is used to unpickle. An example of pickling and saving to a binary file can be found in Figure 1, on the next page. 
