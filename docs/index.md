@@ -20,6 +20,7 @@ Structured error-handling is used to guess what errors a user might make and pro
 *Figure 3. How to use try-except for structured error-handling. The top image shows the script, with the error occurring in line 3. Line 5 shows how to use an exception object, e, to show pythons built in error message. The bottom image shows the output when the script is run.*
 
 Python has many built in exception classes, such as a file not existing, or the zero-division error mentioned above. You can also raise your own custom errors if there is not a built-in one or if you do not like the way the built-in one works. An example of raising custom errors can be seen in Figure 4, below. 
+
 ![Figure 4](https://github.com/ericapet/ITFnd100-Mod07/blob/main/docs/figure4.png "Figure 4")
 
 *Figure 4. How to raise custom error messages. The top image shows the script for raising custom error messages. The middle image shows the error message when a file name is numeric. The bottom image shows the error message when the file does not end in .txt.*
