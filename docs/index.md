@@ -7,3 +7,6 @@ Data can be saved in a binary format, rather than plain text as we have seen in 
 ![Figure 1](https://github.com/ericapet/ITFnd100-Mod07/blob/main/docs/Figure1.png "Figure 1")
 
 *Figure 1. How to pickle data to save it in a binary file. The top image shows the script: In line 22, it is vital that you start with import pickle. Notice the use of “ab” and “rb” in lines 26 and 31. Line 32 is where the file is binarized using the pickle.load() function.  The middle image shows the output while running the script, with user input in green. The bottom image shows the figure1.dat file, with binary characters.*
+Pickling is not only used to save data to a binary file- it can also be used to serialize and deserialize, as mentioned earlier. You can pickle any data type, such as dictionaries, tuples, lists, strings, etc.  An example of pickling, using pickle.load(), and then unpickling, using “pickle.dump()”, data can be found in Figure 2. 
+![Figure 2](https://github.com/ericapet/ITFnd100-Mod07/blob/main/docs/Figure2.png "Figure 2")
+*Figure 2. How to pickle and unpickle an object. The top image shows the script whereas the bottom image shows the output.*
